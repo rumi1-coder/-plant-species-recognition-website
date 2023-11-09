@@ -1,0 +1,124 @@
+/* Navigation Bar */
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 13%;
+   
+  }
+  ul{
+    margin-left: 25%;
+    padding-bottom: 3%;
+    top:7%;
+    position:fixed;
+    display: inline-block;
+    width: 100%;
+    
+    
+  }
+  li{
+    display: inline-block;
+    font-size:large;
+    margin-right: 1.5%;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #008080;
+    font-size:larger;
+  }
+  nav li {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  nav li::before {
+    
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #F6BA6F;
+    transition: all 0.5s ease-in-out;
+  }
+  nav li:hover::before {
+    width: 90%;
+  }
+  
+  h1.logo
+  {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #A0D8B3;
+    display: inline-block;
+    font-size: xx-large;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    height: 100vh; /* set the height of the body to the full viewport height */
+    
+  }
+ 
+  
+ 
+  /* Content Area */
+  .home-main{
+    padding: 4rem 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     height: 20px;
+   
+  }
+  
+  /* Footer */
+  footer {
+    padding: 1rem;
+    background-color: #F6F1F1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav a {
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+  }
+  

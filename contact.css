@@ -1,0 +1,133 @@
+/* Contact Container */
+.contact-container {
+    display: flex;
+    
+    
+    margin-top: 1%;
+    width:95% ;
+    padding: 0rem 2rem;
+  }
+  
+  /* Email Form */
+  .email {
+    width: 45%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 0;
+    background-color: #EEEEEE;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+  
+  }
+  
+  .email h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .email form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .email input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 50%;
+    background-color:#F0F0F0;
+    border:#B2B2B2 solid 1px;
+  }
+  .email textarea
+  {
+    border-radius: 5px;
+    border:#B2B2B2 solid 1px;
+    font-size: large;
+    background-color: #F0F0F0;
+  }
+  .contact-welcome{
+    margin-top: 10%;
+    display: inline-block;
+    margin-left: 30%;
+    width: 40%;
+    
+  }
+  .contact-welcome h1{
+    margin-left: 40%;
+  }
+  .contact-welcome p{
+   margin-left: 9%;
+   font-size:medium;
+  }
+  .contact-footer {
+    padding: 5rem;
+    background-color: #F6F1F1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+  }
+  .email button {
+    padding: 0.5rem 1rem;
+    background-color: #B2B2B2;
+   
+   border-color: #0a0705;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+    
+  }
+  
+  .email button:hover {
+    background-color: #008080;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    width: 45%;
+    display: inline-block;
+    margin-top: 10%;
+    
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 2rem;
+    color:#454545;
+  }
+  
+
+  .contact-info ul {
+    color: #454545;
+   margin-top: 490px;
+   width: 30%;
+   margin-left: -10px;
+
+  }
+  
+  .contact-info li {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    
+    
+  }
+  
+  .contact-info i {
+    margin-right: 1rem;
+    color: #d8b0a0;
+  }
+  
